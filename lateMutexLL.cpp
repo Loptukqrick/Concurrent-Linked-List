@@ -451,7 +451,7 @@ int main() {
 	if (userChoice == 1) {
 		cout << "How many threads would you like to run?" << endl;
 		cin >> numThreads;
-		numThreads = 8;
+		//numThreads = 8;
 		AtomicLinkedList atomicMyList;
 		AtomicNode *atomicNewAtomicNode = new AtomicNode();
 		atomicNewAtomicNode = atomicMyList.head;
@@ -481,7 +481,7 @@ int main() {
 		cout << "How many threads would you like to run?" << endl;
 		cin >> numThreads;
 		MutexLinkedList mutexMyList;
-		numThreads = 1;
+		//numThreads = 1;
 
 		// Create thread tracking objects:
 
